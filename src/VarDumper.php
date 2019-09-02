@@ -19,7 +19,7 @@ class VarDumper
      */
     public static function dp($data, string $label = '')
     {
-        if (http_response_code() === true) {
+        if ((bool)http_response_code() === true) {
             echo ($label ? "<br>$label:" : ""),
                 "<br><pre>",
                 (is_array($data) || is_object($data) ? print_r($data) : $data),
@@ -37,7 +37,7 @@ class VarDumper
      */
     public static function dpx(string $data, string $label = '')
     {
-        if (http_response_code() === true) {
+        if ((bool)http_response_code() === true) {
             echo ($label ? "<br>$label:" : ""),
                "<br><pre style=\"white-space:pre-wrap\">",
                htmlentities((string)$data),
