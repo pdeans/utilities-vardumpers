@@ -10,7 +10,7 @@ use pdeans\Debuggers\Vardumper\Dumper;
 class VarDumper
 {
     /**
-     * Print variable with optional label.
+     * Print variable or value with optional label.
      */
     public static function dp(mixed $data, string $label = ''): void
     {

@@ -4,7 +4,7 @@ use pdeans\Utilities\VarDumper;
 
 if (!function_exists('dp')) {
     /**
-     * Print variable with optional label.
+     * Print variable or value with optional label.
      */
     function dp(mixed $data, string $label = '')
     {
