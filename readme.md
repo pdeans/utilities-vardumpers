@@ -6,8 +6,8 @@ A collection of helpful var dumper methods and functions.
 
 Install via [Composer](https://getcomposer.org/).
 
-```
-$ composer require pdeans/utilities-vardumpers
+```shell
+composer require pdeans/utilities-vardumpers
 ```
 
 ### Usage
