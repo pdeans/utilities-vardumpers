@@ -1,27 +1,27 @@
 {
-	"name": "pdeans/utilities-vardumpers",
-	"type": "library",
-	"description": "A collection of helpful var dumper methods and functions.",
-	"license": "MIT",
-	"keywords": ["utilities", "support", "debug", "debugger", "var", "dump", "vardump", "vardumper"],
-	"authors": [
-		{
-			"name": "Patrick Stearns",
-			"email": "pdeans1986@gmail.com"
-		}
-	],
+    "name": "pdeans/utilities-vardumpers",
+    "type": "library",
+    "description": "A collection of helpful var dumper methods and functions.",
+    "license": "MIT",
+    "keywords": ["utilities", "support", "debug", "debugger", "var", "dump", "vardump", "vardumper"],
+    "authors": [
+        {
+            "name": "Patrick Stearns",
+            "email": "pdeans1986@gmail.com"
+        }
+    ],
     "require": {
-		"php": ">=8.1",
+        "php": ">=8.1",
         "pdeans/debuggers-vardumper": "^1.2"
     },
     "autoload": {
-    	"psr-4": {
-    		"pdeans\\Utilities\\": "src/"
-    	},
-    	"files": [
-    		"src/vardumper_utilities.php"
-    	]
+        "psr-4": {
+            "pdeans\\Utilities\\": "src/"
+        },
+        "files": [
+            "src/vardumper_utilities.php"
+        ]
     },
-	"minimum-stability": "stable",
-	"prefer-stable": true
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
