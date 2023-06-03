@@ -11,14 +11,17 @@
 		}
 	],
     "require": {
-        "pdeans/debuggers-vardumper": "^1.0"
+		"php": ">=8.1",
+        "pdeans/debuggers-vardumper": "^1.2"
     },
     "autoload": {
     	"psr-4": {
-    		"pdeans\\Utilities\\": "src"
+    		"pdeans\\Utilities\\": "src/"
     	},
     	"files": [
     		"src/vardumper_utilities.php"
     	]
-    }
+    },
+	"minimum-stability": "stable",
+	"prefer-stable": true
 }
